@@ -94,7 +94,7 @@ echo -e $okegreen"   ====================== Tool Lest =======================   
         
         case "$option" in 
             1)  echo "Gemail-Hack"
-                echo -e $red "############## Gemail-Hack ###################"
+                echo $red "############## Gemail-Hack ###################"
                 sleep 2
                 git clone https://github.com/Ha3MrX/Gemail-Hack > /dev/null 2>&1
                 echo
